@@ -22,13 +22,14 @@ set_background("turtle.jpg")
 # === Judul Aplikasi ===
 st.markdown("<h1 style='text-align:center; color:white;'>💧 Indeks Pencemaran Air</h1>", unsafe_allow_html=True)
 
-# === Custom CSS untuk memperbesar dan menebalkan judul expander ===
+# === Perbesar & tebalkan font judul st.expander ===
 st.markdown("""
 <style>
-details > summary {
-    font-size: 20pt !important;
-    font-weight: bold !important;
-    color: white !important;
+/* Target expander dengan style spesifik */
+div.streamlit-expanderHeader {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
 }
 </style>
 """, unsafe_allow_html=True)
