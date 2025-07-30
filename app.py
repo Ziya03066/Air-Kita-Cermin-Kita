@@ -27,32 +27,32 @@ with st.expander("📘 Penjelasan Lengkap Indeks Pencemaran Air (IPA)"):
     st.markdown("""
     <div style='color:white'>
 
-    <h4>🔎 Apa itu Indeks Pencemaran Air?</h4>
+    <h3 style="font-weight:bold; font-size:20pt; color:white;">🔎 Apa itu Indeks Pencemaran Air?</h3>
     <p>
     Indeks Pencemaran Air (IPA) merupakan metode evaluasi kualitas air secara komprehensif dengan menggabungkan beberapa parameter fisik, kimia, dan biologi. IPA digunakan untuk menentukan tingkat pencemaran suatu badan air dan menjadi dasar pengambilan keputusan dalam pengelolaan lingkungan.
     </p>
 
-    <h4>📚 Dasar Hukum dan Standar Acuan</h4>
+    <h3 style="font-weight:bold; font-size:20pt; color:white;">📚 Dasar Hukum dan Standar Acuan</h3>
     <ul>
         <li><b>PP No. 22 Tahun 2021</b> tentang Perlindungan dan Pengelolaan Lingkungan Hidup</li>
         <li><b>PP No. 82 Tahun 2001</b> tentang Pengelolaan Kualitas Air dan Pengendalian Pencemaran Air</li>
         <li><b>SNI 6989 (seri)</b> sebagai acuan teknis untuk pengujian kualitas air</li>
     </ul>
 
-    <h4>📑 Parameter Kualitas Air</h4>
+    <h3 style="font-weight:bold; font-size:20pt; color:white;">📑 Parameter Kualitas Air</h3>
     <ul>
         <li>⚗ <b>pH</b>: Mengukur tingkat keasaman atau kebasaan air. Ideal berada dalam rentang <b>6.5 – 8.5</b>. Nilai di luar ini dapat mengganggu kehidupan akuatik dan proses kimia.</li>
         <li>🌡 <b>Suhu</b>: Perubahan suhu lebih dari ±3°C dari suhu alami dapat mengganggu kelangsungan hidup organisme air.</li>
         <li>🫧 <b>DO (Dissolved Oxygen / Oksigen Terlarut)</b>: Minimum <b>4 mg/L</b>. DO rendah menunjukkan kondisi anaerob yang membahayakan ekosistem air.</li>
-        <li>🦠 <b>BOD (Biochemical Oxygen Demand)</b>: Menunjukkan jumlah oksigen yang dibutuhkan mikroorganisme untuk menguraikan bahan organik. Idealnya ≤ <b>3 mg/L</b>.</li>
-        <li>🧪 <b>COD (Chemical Oxygen Demand)</b>: Mengukur jumlah oksigen yang dibutuhkan untuk mengoksidasi bahan kimia organik. Ambang batas ideal ≤ <b>25 mg/L</b>.</li>
-        <li>🌫 <b>TSS (Total Suspended Solid)</b>: Jumlah padatan tersuspensi di air. Ambang batas maksimal <b>50 mg/L</b>.</li>
-        <li>💧 <b>TDS (Total Dissolved Solid)</b>: Zat terlarut seperti garam dan logam. Ambang batas maksimal <b>1000 mg/L</b>.</li>
+        <li>🦠 <b>BOD</b>: Menunjukkan jumlah oksigen yang dibutuhkan mikroorganisme untuk menguraikan bahan organik. Idealnya ≤ <b>3 mg/L</b>.</li>
+        <li>🧪 <b>COD</b>: Mengukur jumlah oksigen yang dibutuhkan untuk mengoksidasi bahan kimia organik. Ambang batas ideal ≤ <b>25 mg/L</b>.</li>
+        <li>🌫 <b>TSS</b>: Jumlah padatan tersuspensi di air. Ambang batas maksimal <b>50 mg/L</b>.</li>
+        <li>💧 <b>TDS</b>: Zat terlarut seperti garam dan logam. Ambang batas maksimal <b>1000 mg/L</b>.</li>
         <li>🧻 <b>E-Coli</b>: Bakteri indikator pencemaran biologis. Idealnya tidak melebihi <b>1000 MPN/100 mL</b>.</li>
         <li>☣ <b>Logam Berat</b>: Unsur toksik seperti Pb, Cd, Hg, dll. Setiap logam memiliki ambang batas masing-masing sesuai regulasi (lihat form input).</li>
     </ul>
 
-    <h4>📊 Kategori Status Kualitas Air</h4>
+    <h3 style="font-weight:bold; font-size:20pt; color:white;">📊 Kategori Status Kualitas Air</h3>
     <p>Aplikasi ini menilai tingkat pencemaran berdasarkan jumlah parameter yang melampaui ambang batas:</p>
     <ul>
         <li>💚 <b>Baik</b>: Tidak ada parameter yang melebihi ambang batas</li>
@@ -61,7 +61,7 @@ with st.expander("📘 Penjelasan Lengkap Indeks Pencemaran Air (IPA)"):
         <li>🔴 <b>Sangat Tercemar</b>: Lebih dari 4 parameter melebihi ambang batas</li>
     </ul>
 
-    <h4>💡 Catatan Penting</h4>
+    <h3 style="font-weight:bold; font-size:20pt; color:white;">💡 Catatan Penting</h3>
     <p>
     Aplikasi ini bertindak sebagai <b>alat bantu pengambilan keputusan</b> awal secara kualitatif berdasarkan ambang batas standar. 
     Aplikasi ini <b>tidak menghitung nilai IPA secara kuantitatif</b> menggunakan rumus indeks resmi, melainkan hanya mendeteksi potensi pencemaran berdasarkan parameter yang melebihi batas.</p>
