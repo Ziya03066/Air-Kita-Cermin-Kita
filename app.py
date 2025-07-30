@@ -22,6 +22,17 @@ set_background("turtle.jpg")
 # === Judul Aplikasi ===
 st.markdown("<h1 style='text-align:center; color:white;'>💧 Indeks Pencemaran Air</h1>", unsafe_allow_html=True)
 
+# === Custom CSS untuk memperbesar dan menebalkan judul expander ===
+st.markdown("""
+<style>
+details > summary {
+    font-size: 20pt !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
 # === Penjelasan IPA (semua parameter) dalam satu expander ===
 with st.expander("📘 Penjelasan Lengkap Indeks Pencemaran Air (IPA)"):
     st.markdown("""
