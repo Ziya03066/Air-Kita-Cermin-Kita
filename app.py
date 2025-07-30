@@ -26,18 +26,46 @@ st.markdown("<h1 style='text-align:center; color:white;'>💧 Indeks Pencemaran 
 with st.expander("📘 Penjelasan Lengkap Indeks Pencemaran Air (IPA)"):
     st.markdown("""
     <div style='color:white'>
-    Berikut ini adalah parameter utama dalam penilaian IPA:
+
+    <h4>🔎 Apa itu Indeks Pencemaran Air?</h4>
+    <p>
+    Indeks Pencemaran Air (IPA) merupakan metode evaluasi kualitas air secara komprehensif dengan menggabungkan beberapa parameter fisik, kimia, dan biologi. IPA digunakan untuk menentukan tingkat pencemaran suatu badan air dan menjadi dasar pengambilan keputusan dalam pengelolaan lingkungan.
+    </p>
+
+    <h4>📚 Dasar Hukum dan Standar Acuan</h4>
     <ul>
-        <li>⚗ <b>pH</b>: Menunjukkan keasaman atau kebasaan air (ideal 6–9)</li>
-        <li>🌡 <b>Suhu</b>: Pengaruh terhadap kelarutan oksigen dan aktivitas biologis (deviasi ±3°C dari alami)</li>
-        <li>🫧 <b>DO (Oksigen Terlarut)</b>: Ideal ≥4 mg/L, penting untuk kehidupan akuatik</li>
-        <li>🦠 <b>BOD</b>: Semakin tinggi, semakin tercemar. Ideal ≤3 mg/L</li>
-        <li>🧪 <b>COD</b>: Menunjukkan tingkat pencemaran organik total (ideal ≤25 mg/L)</li>
-        <li>💧 <b>TDS</b>: Jumlah zat terlarut seperti garam/mineral/logam (ideal ≤1000 mg/L)</li>
-        <li>🌫 <b>TSS</b>: Padatan tersuspensi (ideal ≤50 mg/L)</li>
-        <li>☣ <b>Logam Berat</b>: Logam toksik seperti Pb, Cd, Hg yang tidak boleh melebihi ambang batas</li>
-        <li>🧻 <b>E-Coli</b>: Indikator pencemaran biologis, ideal ≤1000 MPN/100mL</li>
+        <li><b>PP No. 22 Tahun 2021</b> tentang Perlindungan dan Pengelolaan Lingkungan Hidup</li>
+        <li><b>PP No. 82 Tahun 2001</b> tentang Pengelolaan Kualitas Air dan Pengendalian Pencemaran Air</li>
+        <li><b>SNI 6989 (seri)</b> sebagai acuan teknis untuk pengujian kualitas air</li>
     </ul>
+
+    <h4>📑 Parameter Kualitas Air</h4>
+    <ul>
+        <li>⚗ <b>pH</b>: Mengukur tingkat keasaman atau kebasaan air. Ideal berada dalam rentang <b>6.5 – 8.5</b>. Nilai di luar ini dapat mengganggu kehidupan akuatik dan proses kimia.</li>
+        <li>🌡 <b>Suhu</b>: Perubahan suhu lebih dari ±3°C dari suhu alami dapat mengganggu kelangsungan hidup organisme air.</li>
+        <li>🫧 <b>DO (Dissolved Oxygen / Oksigen Terlarut)</b>: Minimum <b>4 mg/L</b>. DO rendah menunjukkan kondisi anaerob yang membahayakan ekosistem air.</li>
+        <li>🦠 <b>BOD (Biochemical Oxygen Demand)</b>: Menunjukkan jumlah oksigen yang dibutuhkan mikroorganisme untuk menguraikan bahan organik. Idealnya ≤ <b>3 mg/L</b>.</li>
+        <li>🧪 <b>COD (Chemical Oxygen Demand)</b>: Mengukur jumlah oksigen yang dibutuhkan untuk mengoksidasi bahan kimia organik. Ambang batas ideal ≤ <b>25 mg/L</b>.</li>
+        <li>🌫 <b>TSS (Total Suspended Solid)</b>: Jumlah padatan tersuspensi di air. Ambang batas maksimal <b>50 mg/L</b>.</li>
+        <li>💧 <b>TDS (Total Dissolved Solid)</b>: Zat terlarut seperti garam dan logam. Ambang batas maksimal <b>1000 mg/L</b>.</li>
+        <li>🧻 <b>E-Coli</b>: Bakteri indikator pencemaran biologis. Idealnya tidak melebihi <b>1000 MPN/100 mL</b>.</li>
+        <li>☣ <b>Logam Berat</b>: Unsur toksik seperti Pb, Cd, Hg, dll. Setiap logam memiliki ambang batas masing-masing sesuai regulasi (lihat form input).</li>
+    </ul>
+
+    <h4>📊 Kategori Status Kualitas Air</h4>
+    <p>Aplikasi ini menilai tingkat pencemaran berdasarkan jumlah parameter yang melampaui ambang batas:</p>
+    <ul>
+        <li>💚 <b>Baik</b>: Tidak ada parameter yang melebihi ambang batas</li>
+        <li>🟡 <b>Sedang</b>: 1–2 parameter melebihi ambang batas</li>
+        <li>🟠 <b>Tercemar</b>: 3–4 parameter melebihi ambang batas</li>
+        <li>🔴 <b>Sangat Tercemar</b>: Lebih dari 4 parameter melebihi ambang batas</li>
+    </ul>
+
+    <h4>💡 Catatan Penting</h4>
+    <p>
+    Aplikasi ini bertindak sebagai <b>alat bantu pengambilan keputusan</b> awal secara kualitatif berdasarkan ambang batas standar. 
+    Aplikasi ini <b>tidak menghitung nilai IPA secara kuantitatif</b> menggunakan rumus indeks resmi, melainkan hanya mendeteksi potensi pencemaran berdasarkan parameter yang melebihi batas.</p>
+
     </div>
     """, unsafe_allow_html=True)
 
